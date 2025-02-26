@@ -4,59 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Boilerplate</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <style>
-        aside {
-  width: 40%;
-  padding-left: 0.5rem;
-  margin-left: 0.5rem;
-  float: right;
-  box-shadow: inset 5px 0 5px -5px #29627e;
-  font-style: italic;
-  color: #29627e;
-}
 
-aside > p {
-  margin: 0.5rem;
-}
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1> <!-- This is a header -->
-        <h2>Welcome to My Website</h2> <!-- This is another header -->
-        <h3>Welcome to My Website</h3>
-        <h4>Welcome to My Website</h4>
-        <h5>Welcome to My Website</h5>
-        <h6>Welcome to My Website</h6>
+        <div id="select-theme">
+        <label for="sci-fi">Choose a Theme:</label>
+        <select name="sci-fi" id="sci-fi">
+        <option value="star wars">Star Wars</option>
+        <option value="alien">Alien</option>
+        <option value="alien">Star Trek</option>
+        </select>
+    </div>
+        <h1>In a Galaxy far far away...</h1> <!-- This is a header -->
+        <h2>In a Galaxy far far away...</h2> <!-- This is another header -->
+        <h3>In a Galaxy far far away...</h3>
+        <h4>In a Galaxy far far away...</h4>
+        <h5>In a Galaxy far far away...</h5>
+        <h6>In a Galaxy far far away...</h6>
         <br>
     </header>
     <section>
-        <img src="image.jpg" alt="The Globe" width="300" height="200">
+        <img src="image.jpg" alt="The Globe">
     </section>
-    <article>
-        <p><strong>
-            Bro ipsum dolor sit amet lid face plant flow misty, white room poaching nose press huck taco glove stoked backside 
-            ski bum rig pow giblets. Free ride dirt sucker hole core shot face plant skid lid huck pow pow heli frozen chicken 
-            heads euro steed fatty yard sale first tracks. Grom bonk euro bunny slope heli. Snowboard japan air rock roll ollie
-            gaper hardtail.
-        </strong></p>
-        <aside>
-            <p>
-                Gnar piste spread eagle, ripper drop pow glades presta. Corduroy afterbang roadie scream grab, death cookies 
-                first tracks. Death cookies bail saddle switch white room taco mitt park rat derailleur park bonk. 
-                Travel steeps heli flow Whistler hellflip grind.
-            </p>
-        </aside>
-        <p>
-            Bunny slope butter wheels, <em>newschooler</em> brain bucket huck giblets carbon. Newschooler yard sale bro yard sale liftie.
-             Face plant laps booter, saddle white room skinny mute rock-ectomy giblets smear gaper stunt table top afterbang 
-             air. Frozen chicken heads dirtbag afterbang back country backside gear jammer gapers punter schwag huck rigid 
-             ollie spin shreddin.
-            </p>
-    </article>
-    <section>
+    <section class="section-form">
         <form action="#">
             <label for="name">Username:</label><br>
             <input type="text" id="username" name="username"><br>
@@ -64,59 +39,80 @@ aside > p {
             <input type="email" id="email" name="email"><br><br>
             <input type="submit" value="Submit">
           </form>
-    </section>
-    <br>
-        <table>
-            <tr>
-                <th>Star Wars</th>
-                <th>Alien</th>
-                <th>Star Trek</th>
-            </tr>
-            <tr>
-                <td>Luke Skywalker</td>
-                <td>Seargent Ripley</td>
-                <td>Captain Kirk</td>
-            </tr>
-            <td>Han Solo</td>
-            <td><em>Jonesy</em></td>
-            <td>Spok</td>
-            </tr>
-        </table>
-        <br>
-        <label for="sci-fi">Choose a Theme:</label>
-        <select name="sci-fi" id="sci-fi">
-        <option value="star wars">Star Wars</option>
-        <option value="alien">Alien</option>
-        <option value="alien">Star Trek</option>
-        </select>
-    <main>
-        <section>
-            <h2>Swedish Names of Cartoons</h2>
-            <p>This is a list of Swedish Cartoon Names</p>
-        </section>
-        <section>
-            <ol>
-                <li>Bamse</li>
-                <li>Lille Skutt</li>
-                <li>Skalman</li>
-            </ol>
-        </section>
-        <section>
-            <ul>
-                <li>Kalle Anka</li>
-                <li>Joakim von Anka</li>
-                <li>Tjatte</li>
-                <li>Fnatte</li>
-                <li>Knatte</li>
-            </ul>
-        </section>
-            <span>
-                <a href="https://lexicongruppen.se/">Visit Lexicon</a>
-            </span>
-            
-    </main>
+    </section>   
+    <article>
+        <p><strong>
+            Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape 
+            for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction.
+             What are we going to do? We'll be sent to the spice mine of Kessel or smashed into who knows what! Wait a minute, where are you going? The 
+             Death Star plans are not in the main computer.
+        </strong></p>
+        <aside>
+            <p>
+                Hang on back there. Red Six. Can you see Red Five? There's a heavy fire zone on this side. Red Five, where are you? I can't shake him! 
+                I'm on him, Luke! Hold on! Blast it! Wedge where are you? Thanks, Wedge. Good shooting, Wedge! Red Leader. This is Gold Leader.
+            </p>
+        </aside>
+        <p>
+            I find your lack of faith disturbing. Enough of this! Vader, release him! As you wish. This bickering is pointless. Lord Vader will provide
+             us with the location of the Rebel fortress by the time this station is operational. We will then crush the Rebellion with one swift stroke.
+              It looks like Sandpeople did this, all right.
+            </p>
+            <br>
+        <p>Captain. Yes, sir? Tell them we wish to board at once. With all due respect, the Ambassadors for the Supreme Chancellor wish to board
+            immediately. Yes, yes, of course, as you know, our blockade is perfectly legal, and we'd be happy to receive the Ambassador. I'm TC-14 
+            at your service. This way, please. We are greatly honored by your visit Ambassadors.</p>
+        <p>
+            I don't fully understand. This is a strange place to me. Hey. Wha? Hit the nose! Oh! A T-14 hyperdrive generator!! Thee in luck, I'm the 
+            only one hereabouts who has one but thee might as well buy a new ship. It would be cheaper, I think. no, I beg you to help us. We are your
+             humble servants, Our fate is in your hands. Yousa no tinken yousa greater den da Gungans.. Mesa like dis. Maybe wesa bein friends, we've 
+             sent out patrols.Roger, Brovo Leader. Roger, Brovo Leader. Cease fire! Steady, steady. Activate the droids. My fate will be no different 
+             from that of our people. Captain! Your Highness? Ready my ship! Please, Your Majesty, stay here. where it's safe. It is clear to me now that
+            the Republic no longer functions. I pray you will bring sanity and compassion back to the Senate.
+        </p>
+    </article>
+    <section id="table">
+        <h2>Sci-fi Radar Couples</h2>
+    <table>
+        <tr>
+            <th>Star Wars</th>
+            <th>Alien</th>
+            <th>Star Trek</th>
+        </tr>
+        <tr>
+            <td>Luke Skywalker</td>
+            <td>Seargent Ripley</td>
+            <td>Captain Kirk</td>
+        </tr>
+        <td>Han Solo</td>
+        <td><em>Jonesy</em></td>
+        <td>Spok</td>
+        </tr>
+    </table>
+</section>
+<section class="list">
+    <h2>Sci-fi Characters</h2>
+    <p>Most Powerful Antagonists in Star Wars</p>
+    <ol>
+        <li>The Emperor</li>
+        <li>Darth Vader</li>
+        <li>Lord Sith</li>
+    </ol>
+    <p>Good Guys in Star Wars</p>
+    <ul>
+        <li>Luke Skywalker</li>
+        <li>Han Solo</li>
+        <li>Chewie</li>
+        <li>R2D2</li>
+        <li>C3PO</li>
+    </ul>
+</section>
+    <hr>
     <footer>
         <p>&copy; 2025 My Website</p>
+        <span>
+            <a href="https://lexicongruppen.se/">Visit Lexicon</a>
+        </span>
     </footer>
 </body>
 </html>
